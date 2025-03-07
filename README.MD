@@ -4,7 +4,7 @@ La meva aplicació de gestió i sincronització de música amb un dispositiu ext
 
 ## Descripció
 
-Des que em vaig fer un iPod 5.5G d'alta capacitat, he volgut tenir una eina que em permeti gestionar la música que hi poso de forma més eficient, ja que copiar i enganxar manualment els directoris no és la millor manera. Descartant altres mètodes com iTunes (no em serveix, ja que ara uso Rockbox), he fet la meva pròpia aplicació (avantatges d'estudiar el que estudio).
+Des que em vaig fer un iPod 5.5G d'alta capacitat, he volgut tenir una eina que em permeti gestionar la música que hi poso de forma més eficient, ja que copiar i enganxar manualment els directoris no és la millor manera. Descartant altres mètodes com iTunes (no em serveix, perquè ara uso Rockbox), he fet la meva pròpia aplicació (avantatges d'estudiar el que estudio).
 
 ## Funcionalitats
 
@@ -14,6 +14,14 @@ Des que em vaig fer un iPod 5.5G d'alta capacitat, he volgut tenir una eina que 
 - ***Identifica què està sincronitzat***: L'estat de sincronització de cada àlbum es mostra amb un simple codi de colors.
 - ***Envia àlbums***: Selecciona els àlbums que vols sincronitzar i fes-ho amb un sol clic.
 - ***Elimina'ls***: Si ja no vols un àlbum al dispositiu, pots eliminar-lo amb un sol clic.
+
+## Compatibilitat
+
+Actualment, l'aplicació només és compatible amb:
+- Windows 8, 8.1, 10, 11
+- Java versió 23.0.1 o més recent
+
+Malgrat que l'aplicació s'executa a MacOS i Linux, no és capaç de trobar cap adreça indicada. Està previst que això se solucioni en la pròxima versió.
 
 ## Tasques pendents
 
@@ -29,7 +37,7 @@ Si us agrada i voldríeu fer-la servir, us animo a crear-ne la vostra pròpia ve
 
 ## A nivell tècnic
 
-- ***Java 23.0.1***: El core i lògica de l'aplicació.
+- ***Java 23.0.1***: El *core* i lògica de l'aplicació.
 - ***Java Swing***: La interfície gràfica.
 
 ## Construcció
